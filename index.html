@@ -1,0 +1,40 @@
+---
+layout: default
+title: Homepage
+---
+
+<!DOCTYPE html>
+<html lang="en">
+		<header>
+			<div class="center headerimage">
+				<img src="https://i2.wp.com/guiadance.es/wp-content/uploads/2013/11/dragon-ball.png" width="600" height="400">
+			</div>
+			<div class="header-content">
+				<div class="header-content-inner">
+					<h1>The blog</h1>
+					<hr>
+					<p>Learn more about your favorite series! From character descriptions to episode summaries. Dragon Ball Z the blog has it all!</p>
+				</div>
+			</div>
+		</header>
+		<aside class="bg-dark">
+			<div class="container text-center">
+				<div class="call-to-action">
+					<h2>How big of a fan are you!</h2>
+					<a href="/about.html" class="btn btn-primary btn-xl page-scroll">Find Out More</a>
+				</div>
+			</div>
+		</aside>
+		<aside class="frontpage">
+			<h2> Blog posts:</h2>
+			<ul style="list-style-position: inside">
+				 {% for post in site.posts %}
+					 <li>
+						 <a href="{{ post.url }}">{{ post.title }}</a>
+						 - {{ post.date | date: "%d %B %Y" }}
+					 </li>
+				 {% endfor %}
+			</ul>
+		</aside>
+		{% include footer.html %}
+</html>

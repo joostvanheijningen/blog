@@ -1,0 +1,24 @@
+---
+layout: default
+title: Blog
+---
+
+<!DOCTYPE html>
+<html lang="en">
+		<section class="bg-dark ">
+			<div class="text-center">
+				<h1>{{ page.title }}</h1>
+			</div>
+		</section>
+		<aside class="frontpage">
+			<ul style="list-style-position: inside">
+				 {% for post in site.posts %}
+					 <li>
+						 <a href="{{ post.url }}">{{ post.title }}</a>
+						 - {{ post.date | date: "%d %B %Y" }}
+					 </li>
+				 {% endfor %}
+			</ul>
+		</aside>
+		{% include footer.html %}
+</html>
