@@ -1,0 +1,19 @@
+---
+layout: default
+---
+
+<!DOCTYPE html>
+<html lang="en">
+		<section class="bg-dark">
+			<div class="text-center">
+				<h1>{{ page.title }}</h1>
+        <h3>{{ page.author}}</h3>
+			</div>
+		</section>
+      <div class="content bg-dbz-2 center padding headerimage blogimage">
+        <img src="/img/goku.png" width="400" height="475">
+        {{content}}
+        <img src="/img/hiclipart.com.png" width="150" height="150">
+      </div>
+      {% include footer.html %}
+</html>

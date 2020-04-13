@@ -1,0 +1,39 @@
+@font-face { font-family: 'manga_templebold'; src: url("mangatb-webfont.woff2") format("woff2"), url("mangatb-webfont.woff") format("woff"); font-weight: normal; font-style: normal; }
+
+div h1, div h2, div h3, div h4, div h5, div h6, div p, div ul, div iframe { font-family: 'manga_templebold'; margin-left: 20%; margin-right: 20%; margin-top: 30px; font-weight: normal; }
+
+div h1 { font-family: 'manga_templebold'; font-size: 80px; -webkit-text-stroke: 3px black; margin-top: 100px; }
+
+div p { font-family: 'manga_templebold'; font-size: 18px; color: black; font-weight: normal; -webkit-text-stroke: 1px black; }
+
+div h5 { font-family: 'manga_templebold'; font-size: 40px; }
+
+div ul { font-family: 'manga_templebold'; font-size: 20px; margin-left: 23%; margin-right: 23%; }
+
+div li { font-size: 18px; color: black; }
+
+img { border: 5px solid black; }
+
+table { font-family: 'manga_templebold'; border: 2px solid black; border-collapse: collapse; width: 50%; margin-left: 20%; margin-right: 20%; margin-bottom: 20px; font-size: 20px; -webkit-text-stroke: 1px black; font-weight: normal; }
+
+tr { color: white; }
+
+td { color: black; }
+
+th, td { border: 1px solid black; padding: 5px; text-align: center; }
+
+th { background-color: gray; }
+
+.container { font-family: 'manga_templebold'; margin-top: 10px; background: gray; border: 2px solid black; }
+
+.video { margin-bottom: 100px; }
+
+.good, .evil, .conflicted { font-family: 'manga_templebold'; font-size: 40px; font-weight: bold; border: 2px solid black; border-radius: 10px; padding: 20px; margin-left: 20%; margin-right: 20%; margin-top: 60px; margin-bottom: 20px; -webkit-text-stroke: 1px black; color: white; }
+
+.good { background-image: url("https://vignette.wikia.nocookie.net/dragonball/images/a/a7/SnakeWay.png/revision/latest?cb=20100120115155"); background-repeat: no-repeat; background-attachment: fixed; background-size: cover; }
+
+.evil { background-image: url("https://vignette.wikia.nocookie.net/dragonball/images/1/16/HFIL-2-500x277.png/revision/latest?cb=20151125220811"); background-repeat: no-repeat; background-attachment: fixed; background-size: cover; }
+
+.conflicted { background-image: url("https://pbs.twimg.com/media/ChfatAbUkAEYc2U.jpg"); background-repeat: no-repeat; background-attachment: fixed; background-size: cover; }
+
+/*# sourceMappingURL=character_stylesheet.css.map */
