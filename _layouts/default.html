@@ -4,11 +4,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>{{ page.title }}</title>
     <!-- Bootstrap Core CSS -->
-    <link rel="stylesheet" href="/assets/css/bootstrap.min.css" type="text/css">
+    <link href="{{ "/assets/css/bootstrap.min.css" | relative_url }}" rel="stylesheet">
     <!-- Custom Fonts -->
-    <link rel="stylesheet" href="/assets/font-awesome/css/font-awesome.min.css" type="text/css">
+    <link href="{{ "/assets/font-awesome/css/font-awesome.min.css" | relative_url }}" rel="stylesheet">
     <!-- Custom CSS -->
-    <link rel="stylesheet" href="/assets/css/pages.css" type="text/css">
+    <link href="{{ "/assets/css/pages.css" | relative_url }}" rel="stylesheet">
   </head>
     {% include navbar.html %}
     {{content}}
