@@ -1,5 +1,8 @@
 defaults:
   -
+    baseurl: "/blog"
+    url: "https://joostvanheijningen.github.io/"
+    
     scope:
       path: "" # an empty string here means all files in the project
     values:
