@@ -1,12 +1,24 @@
-# Saiyans
+# Dragon Ball Z the blog
 TODO: Describe your blog here and provide a link to the live version on GitHub Pages.
+
+First things first:
+I failed to remove the files from the official web-apps-blog-repository and therefore I made this new one. Sorry for that :)
 
 A short summary of the project:
 
-I made a jekyll website containing information about Dragon Ball Z. It contains a character page based on the homepage of the last assignment. From this page you can pick: Goku, Vegeta, Broly, Raditz, Nappa and Bardock. All these characters have their own html page. Moreover, the github folder contains 2 stylesheets: 1 for the homepage, and 1 that works for all different characters. I also added a mp3 file so you can play the DBZ intro tune for fun. I hope you enjoy the site as much as I do :)
+I made a jekyll website containing information about Dragon Ball Z. It contains a homepage, an about page, a character page based on the homepage of the last assignment and a blog page. The website is responsive to screensize and hovers. On all of the pages you can navigate yourself with tha navbar. On the about page you may learn about the website. From the character page you can pick a character and learn more about them. and from the blog page you may learn about different episodes for every blog post.
 
-Additional information:
-- In both CSS files I've used more than 5 CSS properties and different types of CSS selectors. I gave the different characters an #id.
-- I've used the bootstrap component: a badge on the homepage (Approved by King Vegeta).
-Also, I've used the bootstrap grid model in order to implement the layout of the saga appearances for every character. 
-- My stylesheets use color and fond-weight as variables. Moreover, I nested my selectors in both SCSS files and I've implemented inheritance by making 3 different types of characters: A Good Character, A Conflicted Character, and an Evil character.
+The github folder contains: 
+- 2 includes: navbar and footer
+- 2 layouts: 1 default and for the blogposts
+- assets folder: with scss, bootstrap and a manga font
+- 6 character htmls (from earlier project)
+- 4 page htmls: index, about, characters, blog
+- 6 blogposts in markdown
+- And a configuration file .yml
+
+
+I hope you enjoy the site as much as I do :)
+
+Live version:
+https://joostvanheijningen.github.io/blog/index.html
