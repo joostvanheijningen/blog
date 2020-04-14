@@ -21,4 +21,4 @@ The github folder contains:
 I hope you enjoy the site as much as I do :)
 
 Live version:
-https://joostvanheijningen.github.io/blog/index.html
+https://joostvanheijningen.github.io/blog/
